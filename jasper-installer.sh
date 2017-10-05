@@ -21,7 +21,7 @@ Defaults () {
 
 	echo "$(date) - Append PATH var and export LD_LIBRARY_PATH..." >> ~/jasper-installer.log
 	# Append PATH var and export LD_LIBRARY_PATH
-	cat <<EOT >> /home/pi/.bashrc
+	cat <<EOT >> /root/.bashrc
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib
 PATH=$PATH:/usr/local/lib/
 export PATH
